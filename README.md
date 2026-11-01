@@ -3,24 +3,6 @@
 > **"SCI-TEACH LIBRARY — STAY PREPARED, TRAILBLAZERS!"**  
 > *A centralized digital resource library designed for Senior High School STEM students ("Spartans") at the University of Science and Technology of Southern Philippines (USTP).*
 
----
-
-## 📖 Overview
-
-The **Sci-Teach Library** provides an organized, reliable, and comprehensive digital study repository for senior high school STEM Spartans. Built for **zero-config deployment on GitHub Pages**, it runs purely on vanilla web standards (**HTML5, modern CSS3, Vanilla ES6+ JavaScript**) without build steps, dependencies, or server overhead.
-
-The platform's visual identity matches an epic **Spartan cinematic sci-fi aesthetic**:
-- **Hero cover layout**: High-resolution study environment background shifted right for ample negative space, paired with dominant editorial serif typography (`SCI-TEACH LIBRARY`), proportional slogan, and enlarged high-legibility introductory text.
-- **Top floating glassmorphic pill navigation bar**: Centered capsule links and distinct CTA pill buttons.
-- **Cinematic serif typography**: Google Fonts *Cinzel* / *Bodoni Moda* for bold headlines paired with high-legibility *Plus Jakarta Sans* body text.
-- **Floating holographic glassmorphic status cards**: Translucent liquid glass card displaying active hub telemetry and verification seals.
-- **Subject-themed color coding**:
-  - **Grade 11 Theme**: Soft Sky Blue / Cyan (`#0284c7`) — Blue Notebook
-  - **Grade 12 Theme**: Bio/Chem Green (`#059669`) — Green Notebook
-  - **Sci-Teach Series Theme**: Vibrant Violet (`#7c3aed`) — Video Tutorials Hub
-  - **Spartan Bronze/Gold**: Accent & Verification (`#d97706`, `#fbbf24`)
-
----
 
 ## 🗂️ Repository Architecture
 
@@ -49,39 +31,6 @@ The platform's visual identity matches an epic **Spartan cinematic sci-fi aesthe
 │       └── ustp-logo-transparent.png# Official USTP University logo (transparent emblem)
 └── README.md               # GitHub Pages setup and documentation
 ```
-
----
-
-## 🚀 Zero-Config Deployment on GitHub Pages
-
-This project requires **no npm install, no bundlers, and no compilation**. To deploy:
-
-1. **Push or Fork the Repository** to your GitHub account:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Sci-Teach Library for USTP Spartans"
-   git remote add origin https://github.com/<your-username>/<repo-name>.git
-   git push -u origin main
-   ```
-
-2. **Enable GitHub Pages**:
-   - Go to your repository on GitHub.
-   - Click **Settings** (tab at the top).
-   - In the left sidebar, click **Pages** (under "Code and automation").
-   - Under **Build and deployment**:
-     - **Source**: `Deploy from a branch`
-     - **Branch**: `main` (or `master`)
-     - **Folder**: `/ (root)`
-   - Click **Save**.
-
-3. **Instant Live URL**:
-   Within 30–60 seconds, your site will be live at:
-   ```
-   https://<your-username>.github.io/<repo-name>/
-   ```
-
----
 
 ## ⚡ Core Features
 
@@ -145,7 +94,7 @@ This project requires **no npm install, no bundlers, and no compilation**. To de
 
 ---
 
-## 🛠️ How to Add or Update Content in `assets/js/data.js`
+## OFFICERS GUIDE: How to Add or Update Content in `assets/js/data.js`
 
 To manually add a new reviewer or video episode, edit `assets/js/data.js`:
 
@@ -167,16 +116,5 @@ Save the file and commit to `main` — GitHub Pages updates automatically within
 
 ---
 
-## 👥 Acknowledgments & Credits
-
-- **University of Science and Technology of Southern Philippines (USTP)**
-- **Senior High School STEM Program ("Spartans")**
-- **Sci-Tech Society Officers & Academic Committee**
-- **Faculty Reviewers & Mentors**:
-  - Ma'am Glea Maes Sales *(Physical Science)*
-  - Ma'am Naurah Malawi *(General Physics & General Chemistry 1st Sem)*
-  - Ma'am Charisa Bee Aleonar *(General Biology & General Chemistry 2nd Sem)*
-
----
 
 *“Scientia et Virtus — Stay Prepared, Trailblazers!”*
